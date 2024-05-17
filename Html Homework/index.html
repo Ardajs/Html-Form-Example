@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <meta name="author" content="Arda Alan">
+    <meta http-equiv="content-language" content="tr">
+    <title> Homework </title>
+
+    <style>
+        #form1 {
+            color: grey;
+            width: 50%;
+            height: 50px;
+            border: 2px solid red;
+            font-size: x-large;
+            margin-top: 20px;
+            margin-left: 375px;
+        }
+
+        .form2 {
+            color: grey;
+            width: 50%;
+            height: 50px;
+            border: 2px solid red;
+            font-size: x-large;
+            margin-top: 20px;
+            margin-left: 375px;
+        }
+
+        /*
+        .form3 {
+            color: grey;
+            width: 50%;
+            height: 50px;
+            border: 2px solid red;
+            font-size: x-large;
+            margin-top: 20px;
+            margin-left: 375px;
+        }
+
+        .form4 {
+            color: grey;
+            width: 50%;
+            height: 50px;
+            border: 2px solid red;
+            font-size: x-large;
+            margin-top: 20px;
+            margin-left: 375px;
+        }  */
+        .form5 {
+            color: grey;
+            width: 50%;
+            height: 220px;
+            border: 2px solid red;
+            font-size: x-large;
+            margin-top: 20px;
+            margin-left: 375px;
+        }
+
+        .form6 {
+            color: grey;
+            width: 60%;
+            height: 120px;
+            border: 2px solid red;
+            font-size: x-large;
+            margin-top: 20px;
+            margin-left: 300px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h2>Düzce Üniversitesi TalentCoders Etkinlik Başvurusu</h2>
+    </center>
+    <form style="text-align: center;">
+        <div id="form1">
+            Ad <input type="text" maxlength="20" minlength="2" required> 
+            Soyad <input type="text" maxlength="20" minlength="2" required>
+        </div>
+
+        <div class="form2">
+            Email Adresiniz <input type="email" placeholder="arda21@ogr.duzce.edu.tr" maxlength="45" required>
+        </div>
+        <div class="form2">
+            <label for="phone">Telefon Numarası</label>
+            <input type="tel" placeholder="05*****89" maxlength="11" required>
+        </div>
+        <div class="form2"> Lütfen Bölümünüzü Seçiniz
+            <select required>
+                <option>Bilgisayar Mühendisliği</option>
+                <option>Endüstri Mühendisliği</option>
+                <option>Yazılım Mühendisliği</option>
+            </select>
+        </div>
+        <div class="form5">
+            <h4 style="padding-bottom:-175px;">Kaçıncı Sınıfsınız</h4>
+            1.Sınıf<input type="radio" name="sinif"> <br>
+            2.Sınıf<input type="radio" name="sinif"> <br>
+            3.Sınıf<input type="radio" name="sinif"> <br>
+            4.Sınıf<input type="radio" name="sinif"> <br>
+        </div>
+        <div class="form6">
+            <p>Düzce Üniversitesi Tarafından Bilgilendirme , SMS ve Mail Almayı Kabul Ediyorum</p>
+            <input type="checkbox"> Onaylıyorum
+        </div>
+        <button style="width: 150px; height: 30px; font-size:large;"
+         type="submit">Gönder</button>
+
+    </form>
+
+
+    
+
+</body>
+
+</html>
